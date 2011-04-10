@@ -6,6 +6,7 @@ class VenuesController < ApplicationController
     logger.info "venues is #{@venue.inspect}"
     @herenow = l.parsed_response["response"]["hereNow"]["items"]
     logger.info "here now is #{@herenow.first["user"]["firstName"]}"
+    Place.create_inc(@venue)
   end
   
   def main
