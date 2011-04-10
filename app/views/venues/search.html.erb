@@ -3,8 +3,6 @@
 <%= i["user"]["firstName"] %><br>
 <% end %>
 This room is <%= @place.room_id.to_s %>
-<div id="chat">
-</div>
 <script type="text/javascript" charset="utf-8">
   $(document).ready(
     function(){
@@ -13,4 +11,7 @@ This room is <%= @place.room_id.to_s %>
       }, 5000);
     });
 </script>
+<div id="chat">
+</div>
+
 
