@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  square_id: MyString
+  room_id: 1
+
+two:
+  square_id: MyString
+  room_id: 1
