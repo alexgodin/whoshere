@@ -5,6 +5,14 @@
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag 'http://code.jquery.com/jquery-1.5.2.min.js' %>
   <%= csrf_meta_tag %>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(
+      function(){
+        setInterval(function(){
+          $('#chat').load(<%= '/chat/' + @place.room_id.to_s %>);
+        }, 5000);
+      });
+  </script>
   </head>
 <body>
 
