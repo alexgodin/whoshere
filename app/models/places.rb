@@ -7,5 +7,6 @@ class Places < ActiveRecord::Base
       else
         user.room_id = 1111
       end
+    end
   end
 end
