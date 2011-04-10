@@ -1,4 +1,5 @@
 class Places < ActiveRecord::Base
+  has_many :messages
   def self.create_inc(place_id)
     create! do |user|
       user.square_id = place_id

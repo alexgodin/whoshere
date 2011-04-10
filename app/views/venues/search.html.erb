@@ -2,3 +2,11 @@
 <img src="<%= i["user"]["photo"] %>" class="pic" /><br>
 <%= i["user"]["firstName"] %><br>
 <% end %>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(
+    function(){
+      setInterval(function(){
+        $('#chat').load(<%= '/sms/+'@place.room_id %>);
+      }, 5000);
+    });
+</script>
