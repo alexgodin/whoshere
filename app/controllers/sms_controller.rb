@@ -2,10 +2,10 @@ class SmsController < ApplicationController
   protect_from_forgery :only => [:update, :delete, :create]
   
   def main
-    if params["body"] != nil
-      room = params["body"][0, 4]
-      logger.error "room is #{room}" 
-      Message.create(:body => params["body"], :place => Place.find_by_room_id(room))
+    if params["paramaters"]["body"] != nil
+      room = params["paramaters"]["body"][0, 4]
+      logger.erro "room is #{room}" 
+      Message.create(:body => params["paramaters"]["body"], :place => Place.find_by_room_id(room))
     end
   end
   def chat
