@@ -1,4 +1,4 @@
-class Places < ActiveRecord::Base
+class Place < ActiveRecord::Base
   has_many :messages
   def self.create_inc(place_id)
     create! do |user|
