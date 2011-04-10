@@ -11,5 +11,6 @@ class SmsController < ApplicationController
   def chat
     room = params[:id]
     @messages = Place.find_by_room_id(room).messages
+    logger.info "testing"
   end
 end
