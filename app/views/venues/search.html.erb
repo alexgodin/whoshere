@@ -3,7 +3,14 @@
 <%= i["user"]["firstName"] %><br>
 <% end %>
 This room is <%= @place.room_id.to_s %>
-
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(
+    function(){
+      setInterval(function(){
+        $('#chat').load(<%= '/chat/' @place.room_id.to_s %>);
+      }, 5000);
+    });
+</script>
 <div id="chat">
 </div>
 
