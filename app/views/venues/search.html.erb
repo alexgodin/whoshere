@@ -7,8 +7,9 @@ This room is <%= @place.room_id.to_s %>
   $(document).ready(
     function(){
       setInterval(function(){
-        
-        $('#chat').load("<%= '/chat/' + @place.room_id.to_s %>");
+        $.get("<%= '/chat/' + @place.room_id.to_s %>", function(data){
+          $('#chat').html(data)
+        })
       }, 5000);
     });
 </script>
