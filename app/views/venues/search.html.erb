@@ -6,7 +6,7 @@
   $(document).ready(
     function(){
       setInterval(function(){
-        $('#chat').load(<%= '/sms/+'@place.room_id %>);
+        $('#chat').load(<%= '/sms/' + @place.room_id %>);
       }, 5000);
     });
 </script>
