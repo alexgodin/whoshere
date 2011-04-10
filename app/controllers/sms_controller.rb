@@ -4,7 +4,7 @@ class SmsController < ApplicationController
   def main
     if params["Body"] != nil
       room = params["Body"][0, 4]
-      logger.erro "room is #{room}" 
+      logger.info "room is #{room}" 
       Message.create(:body => params["Body"], :place => Place.find_by_room_id(room))
     end
   end
