@@ -1,4 +1,5 @@
 class SmsController < ApplicationController
+  protect_from_forgery :only => [:update, :delete, :create]
   
   def main
     if params["body"] != nil
