@@ -52,6 +52,8 @@ Whoshere::Application.routes.draw do
    match '/view' => "venues#disp", :as => :view
    match '/search' => "venues#search", :as => :search 
    match '/sms' => "sms#main", :as => :sms
+   match '/chat/:id' => "sms#chat", :as => :chat
+   
 
   # See how all your routes lay out with "rake routes"
 
