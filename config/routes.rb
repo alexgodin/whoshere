@@ -48,7 +48,9 @@ Whoshere::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+   root :to => "venues#main"
+   match '/view' => "venues#disp", :as => :view
+   match '/search' => "venues#search", :as => :search 
 
   # See how all your routes lay out with "rake routes"
 
