@@ -31,6 +31,8 @@ GEM
     arel (2.0.6)
     builder (2.1.2)
     columnize (0.3.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
     crack (0.1.8)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -38,6 +40,14 @@ GEM
     geokit-rails3 (0.1.2)
       geokit (~> 1.5.0)
       rails (~> 3.0.0)
+    haml (3.0.25)
+    haml-rails (0.3.4)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      haml (~> 3.0)
+      railties (~> 3.0)
+    html5-boilerplate (0.3.2)
+      compass (>= 0.10.0)
     httparty (0.7.4)
       crack (= 0.1.8)
     i18n (0.5.0)
@@ -83,7 +93,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   geokit-rails3
+  haml-rails
+  html5-boilerplate
   httparty
   rails (= 3.0.3)
   ruby-debug
