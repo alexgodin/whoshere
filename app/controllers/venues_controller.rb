@@ -7,16 +7,14 @@ class VenuesController < ApplicationController
     @herenow = l.parsed_response["response"]["hereNow"]["items"]
     logger.info "here now is #{@herenow.first["user"]["firstName"]}"
     @place = Place.create_inc(@venue)
+    @stylesheet = "search.css"
   end
   
   def main
     @title = "whoshe.re - search"
+    @stylesheet = "main.css"
   end
-  
-  def disp
-    @title = "whoshe.re - listed"
-  end
-  
+    
   private
   
   def s(thing, near)
