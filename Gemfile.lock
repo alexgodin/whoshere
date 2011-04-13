@@ -93,7 +93,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass
   geokit-rails3
   haml-rails
   html5-boilerplate
