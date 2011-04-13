@@ -1,5 +1,7 @@
 @import "all";
 
 body{
-  @include gradient-bg(#fff, #ccc);
+	height: 100%;
+	width: 100%;
+	@include gradient-bg(#fff, #ccc);
 }
