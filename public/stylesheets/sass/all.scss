@@ -1,4 +1,4 @@
-@gradient-bg($color1, $color2){
+@mixin gradient-bg($color1, $color2){
   background-color: $color1
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$color1}, endColorstr=#{$color2})
   background-image: -moz-linear-gradient(center top, $color1, $color2)
