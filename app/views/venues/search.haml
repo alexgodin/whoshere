@@ -11,13 +11,13 @@ text that code + your message to 315-842-4830</h1>
 %br
 %script{:type=>"text/javascript" :charset=>"utf-8"}
   $(document).ready(
-    function(){
-      setInterval(function(){
-        $.get("<%= '/chat/' + @place.room_id.to_s %>", function(data){
-          $('#chat').html(data)
-        })
-      }, 5000);
-    });
+  function(){
+  setInterval(function(){
+  $.get("<%= '/chat/' + @place.room_id.to_s %>", function(data){
+  $('#chat').html(data)
+  })
+  }, 5000);
+  });
 %div.chat
 
 
