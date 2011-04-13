@@ -10,7 +10,6 @@ gem 'geokit-rails3'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'httparty'
 gem 'haml-rails'
-gem 'html5-boilerplate'
 
 # Use unicorn as the web server
 # gem 'unicorn'
