@@ -1,3 +1,4 @@
+Sass::Plugin.options[:never_update] = true
 Whoshere::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
