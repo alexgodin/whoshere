@@ -3,9 +3,5 @@
 body{
 	height: 100%;
 	width: 100%;
-	@include gradient-bg(#fff, #ccc);
-}
-
-#chat{
-  background: #ccc;
+	@include gradient-bg(#c0c0c0, #ffffff);
 }
