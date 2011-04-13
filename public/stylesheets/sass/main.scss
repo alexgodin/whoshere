@@ -1,5 +1,5 @@
 @import "all";
 
-html{
+body{
   @include gradient-bg(#fff, #ccc);
 }
