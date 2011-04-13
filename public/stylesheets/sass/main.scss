@@ -1,1 +1,5 @@
 @import "all";
+
+html{
+  @include gradient-bg(#fff, #ccc);
+}
