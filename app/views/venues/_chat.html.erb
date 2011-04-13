@@ -1,0 +1,8 @@
+$(document).ready(
+  function(){
+    setInterval(function(){
+      $.get("<%= '/chat/' + @place.room_id.to_s %>", function(data){
+        $('#chat').html(data)
+      })
+    }, 5000);
+  });
