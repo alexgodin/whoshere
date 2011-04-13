@@ -1,0 +1,5 @@
+body {
+  background-color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=white, endColorstr=#cccccc);
+  background-image: -moz-linear-gradient(center top, white, #cccccc);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#cccccc)); }
