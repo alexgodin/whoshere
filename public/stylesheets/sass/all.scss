@@ -10,6 +10,10 @@
 
 }
 
+image{
+	margin: 15px;
+	padding: 15px;
+}
 
 @mixin gradient-bg($color1, $color2){
   background-color: $color1;

@@ -4,3 +4,7 @@
   src: url("Chunkfive-webfont.eot?#iefix") format("eot"), url("Chunkfive-webfont.woff") format("woff"), url("Chunkfive-webfont.ttf") format("truetype"), url("Chunkfive-webfont.svg#webfont90E2uSjN") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+image {
+  margin: 15px;
+  padding: 15px; }

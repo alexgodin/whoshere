@@ -5,6 +5,10 @@
   font-weight: normal;
   font-style: normal; }
 
+image {
+  margin: 15px;
+  padding: 15px; }
+
 body {
   height: 100%;
   width: 100%;
