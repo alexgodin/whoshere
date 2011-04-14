@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url("Chunkfive-webfont.eot");
+  src: url("Chunkfive-webfont.eot?#iefix") format("eot"), url("Chunkfive-webfont.woff") format("woff"), url("Chunkfive-webfont.ttf") format("truetype"), url("Chunkfive-webfont.svg#webfont90E2uSjN") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #cccccc;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cccccc, endColorstr=#4d4d4d);
+  background-image: -moz-linear-gradient(center top, #cccccc, #4d4d4d);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cccccc), to(#4d4d4d)); }
