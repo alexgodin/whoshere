@@ -10,9 +10,11 @@
 
 }
 
-img{
-	margin: 15px;
-	padding: 15px;
+body{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	@include gradient-bg(#ccc, #4D4D4D);
 }
 
 @mixin gradient-bg($color1, $color2){
