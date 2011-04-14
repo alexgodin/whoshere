@@ -3,7 +3,7 @@
 body{
 	height: 100%;
 	width: 100%;
-	@include gradient-bg(#ffffff, #4D4D4D);
+	@include gradient-bg(#ccc, #4D4D4D);
 }
 
 h1{
@@ -12,5 +12,6 @@ h1{
 
 input{
 	width: 200px;
-	font: 18px/27px 'ChunkFiveRegular', Arial, sans-serif;
+	height:50px;
+	font: 27px/32px 'ChunkFiveRegular', Arial, sans-serif;
 }

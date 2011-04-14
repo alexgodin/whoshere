@@ -8,10 +8,10 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: white;
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=white, endColorstr=#4d4d4d);
-  background-image: -moz-linear-gradient(center top, white, #4d4d4d);
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#4d4d4d)); }
+  background-color: #cccccc;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cccccc, endColorstr=#4d4d4d);
+  background-image: -moz-linear-gradient(center top, #cccccc, #4d4d4d);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cccccc), to(#4d4d4d)); }
 
 h1 {
   font: 60px/68px "ChunkFiveRegular", Arial, sans-serif;
@@ -19,4 +19,5 @@ h1 {
 
 input {
   width: 200px;
-  font: 18px/27px "ChunkFiveRegular", Arial, sans-serif; }
+  height: 50px;
+  font: 27px/32px "ChunkFiveRegular", Arial, sans-serif; }
