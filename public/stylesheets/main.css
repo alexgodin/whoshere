@@ -22,6 +22,7 @@ img {
   padding: 15px; }
 
 input#search {
+  margin-top: 15px;
   width: 200px;
   height: 31px;
   font: 18px/27px "ChunkFiveRegular", Arial, sans-serif; }
