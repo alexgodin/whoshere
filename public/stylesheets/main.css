@@ -17,6 +17,6 @@ h1 {
   font: 60px/68px "ChunkFiveRegular", Arial, sans-serif;
   letter-spacing: 0; }
 
-input.search {
+input {
   width: 200px;
   font: 18px/27px "ChunkFiveRegular", Arial, sans-serif; }
