@@ -6,6 +6,10 @@ body{
 	@include gradient-bg(#ffffff, #4D4D4D);
 }
 
+h1{
+	font: 60px/68px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;
+}
+
 .search{
 	height: 50;
 	width: 31;
