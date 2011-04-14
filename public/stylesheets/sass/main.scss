@@ -5,3 +5,9 @@ body{
 	width: 100%;
 	@include gradient-bg(#ffffff, #4D4D4D);
 }
+
+.search{
+	height: 50;
+	width: 31;
+	font-size:14 pt;
+}
