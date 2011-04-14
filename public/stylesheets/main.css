@@ -21,8 +21,14 @@ img {
   margin-right: auto;
   padding: 15px; }
 
+input#submit {
+  margin-top: 15 px; }
+
+h2 {
+  font: 27px/32px "ChunkFiveRegular", Arial, sans-serif; }
+
 input#search {
-  margin-top: 15px;
+  margin-top: 15 px;
   width: 200px;
   height: 31px;
   font: 18px/27px "ChunkFiveRegular", Arial, sans-serif; }
