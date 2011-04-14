@@ -24,4 +24,5 @@ body {
 
 h1 {
   font: 60px/68px "ChunkFiveRegular", Arial, sans-serif;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); }
